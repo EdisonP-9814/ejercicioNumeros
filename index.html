@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <span id="iden">
+        <TABLE BORDER CELLPADDING=80 CELLSPACING=20>
+            <TR>
+                <TH COLSPAN=4>Ejercicio Numeros</TH>
+            </TR>
+            <TR>
+                <TD><button v-on:click="cambioNumPos">INCREMENTAR</button></TD> 
+                <TD><span>{{numero}}</span></TD>
+                <TD><button v-on:click="cambioNumNeg">DECREMENTAR</button></TD>
+            </TR>
+            <TR>	
+                <TD><span>{{binario}}</span></TD>
+                <TD>{{texto}}</TD> <TD>numeros primos</TD>
+            </TR>
+        </TABLE>
+
+
+    </span>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
